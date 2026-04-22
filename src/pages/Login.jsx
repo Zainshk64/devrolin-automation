@@ -74,7 +74,7 @@ const Login = () => {
               className="rounded-2xl flex items-center justify-center text-3xl font-bold mx-auto"
               // style={{ backgroundColor: theme.colors.primary }}
             >
-              <img src="/public/devrolin-automation.svg" alt="Devrolin Logo" />
+              <img src="/devrolin-automation.svg" alt="Devrolin Logo" />
 
             </div>
           </motion.div>
@@ -227,7 +227,7 @@ const Login = () => {
           </form>
 
           {/* Demo Credentials */}
-          <div className="mt-6 p-4 rounded-lg" style={{ backgroundColor: theme.colors.background }}>
+          {/* <div className="mt-6 p-4 rounded-lg" style={{ backgroundColor: theme.colors.background }}>
             <p className="text-xs mb-2" style={{ color: theme.colors.textSecondary }}>
               Demo Credentials:
             </p>
@@ -237,7 +237,7 @@ const Login = () => {
             <p className="text-sm font-mono" style={{ color: theme.colors.primary }}>
               Devrolin@123
             </p>
-          </div>
+          </div> */}
         </motion.div>
       </motion.div>
     </div>

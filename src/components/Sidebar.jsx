@@ -85,7 +85,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
               className="rounded-2xl flex items-center justify-center text-3xl font-bold mx-auto"
               // style={{ backgroundColor: theme.colors.primary }}
             >
-              <img src="/public/devrolin-automation.svg" alt="Devrolin Logo" />
+              <img src="/devrolin-automation.svg" alt="Devrolin Logo" />
 
             </div>
            
