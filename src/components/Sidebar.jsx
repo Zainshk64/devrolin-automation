@@ -22,12 +22,12 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  const menuItems = [
-    { id: 1, name: 'Use Case 1', active: true },
-    { id: 2, name: 'Use Case 2', active: false },
-    { id: 3, name: 'Use Case 3', active: false },
-    { id: 4, name: 'Use Case 4', active: false },
-  ];
+const menuItems = [
+  { id: 1, name: 'Social Media', active: true },
+  { id: 2, name: 'Job Tracker', active: true }, // ✅ ACTIVATED
+  { id: 3, name: 'Use Case 3', active: false },
+  { id: 4, name: 'Use Case 4', active: false },
+];
 
   const handleLogout = () => {
     setLoggingOut(true);
